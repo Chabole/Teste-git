@@ -3,3 +3,8 @@ print('1 modifição do arquivo')
 def func():
     print('2 modifição do arquivo')
     return None
+
+def soma(a, b):
+    return a + b
+
+print('Realidade paralela 1º')
