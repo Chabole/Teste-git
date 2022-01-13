@@ -4,4 +4,9 @@ def func():
     print('2 modifição do arquivo')
     return None
 
-print("CHABOLE O MAIS BRABO DO PYTHON")
+def soma(a, b):
+    return a + b
+
+print('Realidade paralela 1º')
+
+print('Realidade paralela 2º')
