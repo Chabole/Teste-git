@@ -12,3 +12,6 @@ def soma(a, b):
 
 def seno(x):
     return np.sin(np.radians(x))
+
+def mult(x, y):
+    return x*y
