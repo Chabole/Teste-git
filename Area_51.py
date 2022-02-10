@@ -1,17 +1,22 @@
 
 import numpy as np
+import random
 
-print('1 modifição do arquivo')
-print("ola")
-def func():
-    print('2 modifição do arquivo')
-    return None
+def sortear():
+    return random.randint(1, 60)
 
-def soma(a, b):
-    return a + b
+#x = int(input('Quantos jogos serão jogados: '))
 
-def seno(x):
-    return np.sin(np.radians(x))
+x = 3
 
-def mult(x, y):
-    return x*y
+lista = []
+for _ in range(10):
+    lista.append(sortear())
+
+for jogo in range(x):
+    print(f'-------- JOGO {jogo+1} --------')
+    lista = []
+    for i in range(6):
+        lista.append(random.randint(0,60))
+    print(f'{lista}')
+    print('------------------------')
